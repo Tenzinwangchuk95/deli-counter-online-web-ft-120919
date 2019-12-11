@@ -24,8 +24,8 @@ def now_serving (array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   else
-    next_in_line = array.unshift
+    
     puts "Currently serving #{next_in_line}."
-    return array
+    next_in_line = array.unshiftreturn array
   end
 end
