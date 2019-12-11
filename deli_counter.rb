@@ -3,8 +3,8 @@ def line(array)
     puts "The line is currently empty."
   else 
    line_order = Array.new
-   array.each do |name|
-      counter = 1
+  counter = 1 array.each do |name|
+      
       line_order << "#{counter}. #{name}"
       counter += 1
     end
