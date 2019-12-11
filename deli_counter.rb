@@ -16,6 +16,7 @@ end
 def take_a_number (array,name)
   spot= array.length + 1
      array << name
+     puts "Welcome, #{name}. You are number #{spot} in line."
      return array
   
 end
