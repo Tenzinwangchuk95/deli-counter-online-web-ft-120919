@@ -18,5 +18,7 @@ def take_a_number (array,name)
      array << name
      puts "Welcome, #{name}. You are number #{spot} in line."
      return array
-  
+end
+
+def now_serving
 end
