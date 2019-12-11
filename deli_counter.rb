@@ -10,5 +10,5 @@ def line(array)
     end
     line_order_string = line_order.join
   end
-  return "The line is currently: #{line_order_string}"
+  puts "The line is currently: #{line_order_string}"
 end
