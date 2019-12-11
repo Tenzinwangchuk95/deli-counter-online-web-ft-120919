@@ -14,7 +14,7 @@ def line(array)
 end
 
 def take_a_number (array,name)
-  spot= array.lenth + 1
+  spot= array.length + 1
      array << name
      return array
   
