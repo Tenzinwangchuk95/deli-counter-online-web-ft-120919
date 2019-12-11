@@ -5,4 +5,7 @@ def line(array)
     array.each do |name|
       counter = 1
       line_order = []
-      line_order << "#{counter} "
+      line_order << "#{counter}. #{name}"
+      counter += 1
+    end
+  return 
