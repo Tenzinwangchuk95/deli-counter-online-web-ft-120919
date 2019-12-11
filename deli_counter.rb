@@ -4,7 +4,7 @@ def line(array)
   else 
     array.each do |name|
       counter = 1
-      line_order= []
+      line_order = Array.new
       line_order << "#{counter}. #{name}"
       counter += 1
     end
