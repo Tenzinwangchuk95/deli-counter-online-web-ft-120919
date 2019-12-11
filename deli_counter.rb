@@ -12,3 +12,6 @@ def line(array)
     puts "The line is currently: #{line_order_string}"
   end
 end
+
+def take_a_number
+end
