@@ -26,7 +26,7 @@ def now_serving (array)
   else
     next_in_line = array.first
     puts "Currently serving #{next_in_line}."
-    array.shift = array
+    array.shiftarray
     return array
   end
 end
