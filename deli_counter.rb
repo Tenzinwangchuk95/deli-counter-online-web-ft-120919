@@ -20,5 +20,13 @@ def take_a_number (array,name)
      return array
 end
 
-def now_serving (name)
+def now_serving (array)
+  if array.lenth == 0
+    puts "There is nobody waiting to be served!"
+  else
+    next_in_line = array.unshift
+    puts "Currently serving #{next_in_line}."
+    return array
+  
+  
 end
