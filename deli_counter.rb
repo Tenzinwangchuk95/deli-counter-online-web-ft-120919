@@ -9,3 +9,4 @@ def line(array)
       counter += 1
     end
   return "The line is currently: #{line_order.join}"
+end
