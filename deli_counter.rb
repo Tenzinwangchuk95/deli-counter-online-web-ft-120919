@@ -8,7 +8,7 @@ def line(array)
       line_order << "#{counter}. #{name}"
       counter += 1
     end
-    line_order.join
+    line_order_string = line_order.join
   end
-  return "The line is currently: #{line_order.join}"
+  return "The line is currently: #{line_order_string}"
 end
